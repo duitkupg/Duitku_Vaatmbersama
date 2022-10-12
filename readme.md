@@ -4,41 +4,41 @@ Duitku integration for your Magento 2! 💸💸💸</br>
 Start receiving payment through your e-commerce magento with Duitku extension plugin payment integration.
 
 # How to install the plugins
-## Install Duitku Shopeepay App plugins through Composer
+## Install Duitku Vaatmbersama plugins through Composer
 Before you begin to install through the composer, you need Magento marketplace account and make sure that you have installed Composer. In your terminal, go to the Magento folder and run the following commands:
-1. Install the plugins: `composer require duitku_payment_gateway/duitku_shopeepay_app`
-2. Enable the plugin:  `bin/magento module:enable Duitku_Shopeepayapp`
+1. Install the plugins: `composer require duitku_payment_gateway/duitku_va_atm_bersama`
+2. Enable the plugin:  `bin/magento module:enable Duitku_Vaatmbersama`
 3. Execute upgrade script : `bin/magento setup:upgrade`
 4. Deploy magento :  `bin/magento setup:static-content:deploy -f`
 5. Clean cache storage :  `bin/magento cache:clean`
-6. Check the module status:  `bin/magento module:status Duitku_Shopeepayapp`
+6. Check the module status:  `bin/magento module:status Duitku_Vaatmbersama`
 
 >Note: If you do have a previous version installed and upgrade the plugins to the latest version. After upgrade our plugins, You need to run `bin/magento setup:upgrade --keep-generated`, `bin/magento setup:static-content:deploy` and clean cache `bin/magento cachce:clean`.
 
-## Install Duitku Shopeepay App plugins from Download file
+## Install Duitku Vaatmbersama plugins from Download file
 
 With these steps, you can custom/modify our Magento plugins to handle the business model that you want
 
-1. Download and extract the plugin you have previously downloaded from GitHub and rename the folder as Shopeepay.
+1. Download and extract the plugin you have previously downloaded from GitHub and rename the folder as Vaatmbersama.
 2. Upload to the root of the Magento folder (Magento installation folder) you use the FTP client of your choice.
 3. Locate the root Magento directory of your shop via FTP connection. </br>(By default the root folder is on SERVER_HOST/Magento)
-4. Move the Shopeepay folder into the Magento `root/app/code/Duitku` folder. </br>(You might need to create the folder `code/Duitku` if it is not exist).
+4. Move the Vaatmbersama folder into the Magento `root/app/code/Duitku` folder. </br>(You might need to create the folder `code/Duitku` if it is not exist).
 5. Run this command on terminal
 
-    `bin/magento module:enable Duitku_Shopeepayapp`
+    `bin/magento module:enable Duitku_Vaatmbersama`
     
     `bin/magento setup:upgrade`
     
     `bin/magento cache:clean`
     
-    `bin/magento module:status Duitku_Shopeepayapp`
+    `bin/magento module:status Duitku_Vaatmbersama`
 
 
 # Plugin Usage Instruction
 ## Basic Plugins Configuration
 
-Before you begin, make sure that you have successfully installed and enabled Duitku Shopeepay App plugins.
-Configure the Duitku Shopeepay App plugin in your Magento admin panel: 
+Before you begin, make sure that you have successfully installed and enabled Duitku Vaatmbersama plugins.
+Configure the Duitku Vaatmbersama plugin in your Magento admin panel: 
 
 1. Log in to your Magento admin panel. 
 2. In the left navigation bar, go to **Stores(1)** -> **Configuration(2)**. 
@@ -47,7 +47,7 @@ Configure the Duitku Shopeepay App plugin in your Magento admin panel:
 ![](https://docs.duitku.com//static/2908a48ebc8a434d9b48eed003f669bb/0955f/guide-4b.png "image_mag_payment")
 
 
-4. In the Other Payment Method section, click Duitku Shopeepay App to extend Basic Settings and fill out the following fields:
+4. In the Other Payment Method section, click Duitku Vaatmbersama to extend Basic Settings and fill out the following fields:
 
 | Field                   | Description									                               |
 |-------------------------| ---------------------------------------------------------------------------|
